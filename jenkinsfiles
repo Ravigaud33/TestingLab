@@ -1,0 +1,22 @@
+pipeline {
+agent any
+stages {
+stage(&#39;Clone&#39;) {
+steps {
+echo &#39;Cloning done by Jenkins automatically&#39;
+}
+}
+stage(&#39;Build&#39;) {
+steps {
+echo &#39;Pretend to build (no real mvn command)&#39;
+}
+}
+stage(&#39;Test&#39;) {
+steps {
+echo &#39;Pretend to run tests (no real test command)&#39;
+
+
+}
+}
+}
+}
